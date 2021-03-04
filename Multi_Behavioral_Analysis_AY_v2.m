@@ -63,7 +63,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session1.BasePercData = [];
-            RTs = [sum(datastructure.Session1.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session1.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session1.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session1.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session1.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session1.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session1.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -178,7 +178,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session1.BasePercData = [];
-            RTs = [sum(datastructure.Session1.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session1.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session1.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session1.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session1.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session1.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session1.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -345,7 +345,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session2.BasePercData = [];
-            RTs = [sum(datastructure.Session2.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session2.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session2.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session2.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session2.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session2.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session2.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -460,7 +460,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session2.BasePercData = [];
-            RTs = [sum(datastructure.Session2.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session2.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session2.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session2.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session2.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session2.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session2.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -626,7 +626,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session3.BasePercData = [];
-            RTs = [sum(datastructure.Session3.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session3.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session3.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session3.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session3.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session3.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session3.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -741,7 +741,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session3.BasePercData = [];
-            RTs = [sum(datastructure.Session3.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session3.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session3.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session3.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session3.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session3.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session3.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -908,7 +908,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session4.BasePercData = [];
-            RTs = [sum(datastructure.Session4.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session4.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session4.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session4.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session4.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session4.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session4.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -1023,7 +1023,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session4.BasePercData = [];
-            RTs = [sum(datastructure.Session4.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session4.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session4.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session4.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session4.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session4.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session4.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -1188,7 +1188,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session5.BasePercData = [];
-            RTs = [sum(datastructure.Session5.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session5.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session5.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session5.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session5.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session5.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session5.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -1303,7 +1303,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session5.BasePercData = [];
-            RTs = [sum(datastructure.Session5.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session5.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session5.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session5.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session5.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session5.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session5.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -1470,7 +1470,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session6.BasePercData = [];
-            RTs = [sum(datastructure.Session6.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session6.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session6.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session6.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session6.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session6.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session6.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -1585,7 +1585,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session6.BasePercData = [];
-            RTs = [sum(datastructure.Session6.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session6.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session6.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session6.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session6.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session6.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session6.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -1751,7 +1751,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session7.BasePercData = [];
-            RTs = [sum(datastructure.Session7.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session7.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session7.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session7.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session7.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session7.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session7.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -1866,7 +1866,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session7.BasePercData = [];
-            RTs = [sum(datastructure.Session7.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session7.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session7.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session7.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session7.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session7.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session7.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -2034,7 +2034,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session8.BasePercData = [];
-            RTs = [sum(datastructure.Session8.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session8.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session8.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session8.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session8.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session8.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session8.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
@@ -2149,7 +2149,7 @@ for i = 1:count
             %Calculate percent of trials dedicated to Hit/FA/Miss/NoGo and
             %mean GoRT/FART
             datastructure.Session8.BasePercData = [];
-            RTs = [sum(datastructure.Session8.DataAnalysis(2:end,6) >= 0.001), sum(datastructure.Session8.DataAnalysis(2:end,11) > 0.001)];
+            RTs = [sum(datastructure.Session8.DataAnalysis(2:101,6) >= 0.001), sum(datastructure.Session8.DataAnalysis(2:101,11) > 0.001)];
             BaseTrials = size(datastructure.Session8.DataAnalysis(2:101,:));
             BaseTrials = ((BaseTrials(1,1) - 1) - sum(datastructure.Session8.DataAnalysis(2:101,12)));
             perc_Gos = (sum(datastructure.Session8.DataAnalysis(2:101,7)) / BaseTrials(1,1) * 100);
