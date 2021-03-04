@@ -17,3 +17,6 @@ It allows the user to select how they would like to analyze each file (0, 1, or 
  All analytical data is saved inside the nested data structure.
   If analysis has been performed, the segregated (Off vs. On) results will be located in the "Final Data" array for each session
   If analysis has not been performed, the non-segregated data will be located in the "Base Data" array for each session
+  
+  *** NOTE: Use "Multi_Behavioral_Analysis_AY_v2" (modified and uploaded on 3/4/21)
+  This version adds in the BasePercData when an LED Setting is inputted, which indicates how the mouse performed prior to LED ON vs. OFF blocks
