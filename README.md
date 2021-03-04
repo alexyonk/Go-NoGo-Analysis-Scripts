@@ -19,4 +19,4 @@ It allows the user to select how they would like to analyze each file (0, 1, or 
   If analysis has not been performed, the non-segregated data will be located in the "Base Data" array for each session
   
   *** NOTE: Use "Multi_Behavioral_Analysis_AY_v2" (modified and uploaded on 3/4/21)
-  This version adds in the BasePercData when an LED Setting is inputted, which indicates how the mouse performed prior to LED ON vs. OFF blocks
+  This version adds in the BasePercData when an LED Setting is inputted, which indicates how the mouse performed in the baseline session (Trials 1-100) prior to LED ON vs. OFF blocks
